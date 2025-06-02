@@ -413,3 +413,77 @@ main p {
     margin-bottom: 15px;
     font-size: 1.5rem;
 }
+
+
+/* Estilos para el banner */
+.banner {
+    width: 100%;
+    margin: 20px 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.banner .card {
+    padding: 0;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    transform: none;
+    transition: transform 0.3s ease;
+}
+
+.banner .card:hover {
+    transform: scale(1.01);
+}
+
+.card-image-banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border: none;
+}
+
+.card-image-banner picture {
+    display: block;
+    width: 100%;
+}
+
+.card-image-banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.card-image-banner:hover img {
+    transform: scale(1.02);
+}
+
+/* Responsive para el banner */
+@media (max-width: 768px) {
+    .banner {
+        margin: 15px 0;
+    }
+    
+    .card-image-banner {
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        margin: 10px 0;
+        border-radius: 8px;
+    }
+    
+    .banner .card {
+        border-radius: 8px;
+    }
+    
+    .card-image-banner {
+        border-radius: 8px;
+    }
+}
