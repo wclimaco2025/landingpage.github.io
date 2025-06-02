@@ -383,6 +383,8 @@ main p {
     line-height: 1.4;
 }
 
+
+
 /* Responsive para las tarjetas */
 @media (max-width: 768px) {
     .cards-container {
