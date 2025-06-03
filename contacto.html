@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - SIMAN</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado"> 
+        <picture>
+            <a href="index.html">
+               <img src="https://res.cloudinary.com/dkfabt5ck/image/upload/v1748880629/Logo-siman_rto5s7.png" alt="logo">
+            </a>
+        </picture>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <div class="container">
+        <main>
+            <h1>Contáctanos</h1>
+            <p class="contact-intro">
+                Estamos aquí para ayudarte. Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.
+            </p>
+            
+            <section class="contact-section">
+                <div class="contact-container">
+                    <div class="contact-form-container">
+                        <h2 class="section-title">Envíanos un mensaje</h2>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="nombre">Nombre completo</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="(503) 2456-7890">
+                            </div>
+                            <div class="form-group">
+                                <label for="asunto">Asunto</label>
+                                <select id="asunto" name="asunto" required>
+                                    <option value="" disabled selected>Selecciona un asunto</option>
+                                    <option value="consulta">Consulta general</option>
+                                    <option value="producto">Información de producto</option>
+                                    <option value="reclamo">Reclamo</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+                            <div class="form-group form-checkbox">
+                                <input type="checkbox" id="terminos" name="terminos" required>
+                                <label for="terminos">Acepto los términos y condiciones de privacidad</label>
+                            </div>
+                            <button type="submit" class="submit-btn">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+                     
+            <section class="faq-section">
+                <h2 class="section-title">Preguntas frecuentes</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cuáles son los métodos de pago aceptados?</h3>
+
+                            <p>Aceptamos tarjetas de crédito y débito (Visa, MasterCard, American Express), PayPal, transferencias bancarias y pago en efectivo en nuestras tiendas físicas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cuál es la política de devoluciones?</h3>
+                            <p>Puedes devolver cualquier producto dentro de los 30 días posteriores a la compra, siempre que esté en su estado original y con el empaque intacto. Para más detalles, consulta nuestra política de devoluciones completa.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cuánto tiempo tarda en llegar mi pedido?</h3>
+                            <p>El tiempo de entrega varía según tu ubicación. Generalmente, los pedidos se entregan en un plazo de 3 a 5 días hábiles en áreas urbanas y de 5 a 7 días hábiles en áreas rurales.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <h2>Atención al cliente</h2>
+            
+            <div class="anuncio">
+                <h3>Línea directa</h3>
+                <p>Llámanos al (503) 2529-7890 para atención inmediata.</p>
+                <a href="tel:+5032529-7890" class="btn-anuncio">Llamar ahora</a>
+            </div>
+            
+            <div class="anuncio">
+                <h3>Chat en vivo</h3>
+                <p>Habla con uno de nuestros representantes en tiempo real.</p>
+                <a href="#" class="btn-anuncio">Iniciar chat</a>
+            </div>
+            
+           
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>El retail más importante y relevante en Centroamérica, fundada el 8 de diciembre de 1921 en San Salvador por José J. Simán.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: atencionalcliente@siman.com</p>
+                <p>Teléfono: (503) 2529-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">X</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 William Clímaco. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+   
+</body>
+</html>
